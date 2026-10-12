@@ -1,0 +1,3 @@
+Hello.java définit les signatures des méthodes accessibles à distance à travers le réseau.
+HelloImpl.java fournit le code de ces méthodes sur le serveur.
+Server.java démarre le serveur RMI en créant une instance de l'objet, en lançant un registre sur le port 1099, et en publiant l'objet sous le nom "Hello" pour le rendre accessible aux clients.
